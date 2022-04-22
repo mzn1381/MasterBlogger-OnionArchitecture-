@@ -1,0 +1,12 @@
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\bin\Debug\net5.0\MB.ConcreateApplication.deps.json
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\bin\Debug\net5.0\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\bin\Debug\net5.0\ref\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\bin\Debug\net5.0\MB.ConcreateApplication.pdb
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.csprojAssemblyReference.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.GeneratedMSBuildEditorConfig.editorconfig
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.AssemblyInfoInputs.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.AssemblyInfo.cs
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.csproj.CoreCompileInputs.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\ref\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.ConcreateApplication\obj\Debug\net5.0\MB.ConcreateApplication.pdb

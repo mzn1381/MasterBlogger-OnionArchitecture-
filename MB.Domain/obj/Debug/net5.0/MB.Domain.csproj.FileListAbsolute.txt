@@ -1,0 +1,12 @@
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\MB.Domain.deps.json
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\MB.Domain.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\ref\MB.Domain.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\MB.Domain.pdb
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csprojAssemblyReference.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfoInputs.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfo.cs
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CoreCompileInputs.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb

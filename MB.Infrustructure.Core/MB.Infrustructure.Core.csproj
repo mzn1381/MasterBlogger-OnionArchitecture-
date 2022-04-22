@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MB.Application\MB.Application.csproj" />
+    <ProjectReference Include="..\MB.ConcreateApplication\MB.ConcreateApplication.csproj" />
+    <ProjectReference Include="..\MB.Infrastructure\MB.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
