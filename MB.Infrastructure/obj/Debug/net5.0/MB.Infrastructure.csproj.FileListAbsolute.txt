@@ -16,3 +16,5 @@ G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\obj\Debug\net5.0\M
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\obj\Debug\net5.0\ref\MB.Infrastructure.dll
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\obj\Debug\net5.0\MB.Infrastructure.pdb
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\obj\Debug\net5.0\MB.Infrastructure.genruntimeconfig.cache
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\bin\Debug\net5.0\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Infrastructure\bin\Debug\net5.0\MB.ConcreateApplication.pdb

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "MB.ConcreateApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.ConcreateApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.ConcreateApplication.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MB.ConcreateApplication/1.0.0": {
+      "type": "project",
+      "path": "../MB.ConcreateApplication/MB.ConcreateApplication.csproj",
+      "msbuildProject": "../MB.ConcreateApplication/MB.ConcreateApplication.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "MB.ConcreateApplication >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lenoovo\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\PROGRAM\\c#\\Master-Blogger\\Master-Blogger\\MB.ConcreateApplication\\MB.ConcreateApplication.csproj": {
+              "projectPath": "G:\\PROGRAM\\c#\\Master-Blogger\\Master-Blogger\\MB.ConcreateApplication\\MB.ConcreateApplication.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

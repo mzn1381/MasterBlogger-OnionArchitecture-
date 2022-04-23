@@ -10,3 +10,6 @@ G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
 G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\MB.ConcreateApplication.dll
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\bin\Debug\net5.0\MB.ConcreateApplication.pdb
+G:\PROGRAM\c#\Master-Blogger\Master-Blogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete

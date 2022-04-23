@@ -1,16 +1,12 @@
-using MB.Infrustructure.Core.IOC;
+using MB.Infrustructure.Core.IOC.Article;
+using MB.Infrustructure.Core.IOC.ArticleCategory;
+using MB.Infrustructure.Core.IOC.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MasterBloggerApi
 {
@@ -28,16 +24,25 @@ namespace MasterBloggerApi
         {
 
             #region ConfigArticleCategoryIOC 
-            ArticleCategoryIOC.ConfigIOC((ServiceCollection)services, Configuration.GetConnectionString("MBBank"));
+            ArticleCategoryIOC.ConfigIOC((ServiceCollection)services);
             #endregion
 
+            #region ConfigArticleIOC
+            ArticleIOC.ConfigIOC((ServiceCollection)services);
+            #endregion
 
+            #region ConfigContext
+            ContextIOC.ConfigIOC((ServiceCollection)services,Configuration.GetConnectionString("MBBank"));
+            #endregion
 
+            #region AnotherConfig
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MasterBloggerApi", Version = "v1" });
             });
+            #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -16,6 +16,10 @@ namespace MB.Domain.ArticleCategory
         public string Title { get; private set; }
         public ICollection<MB.Domain.Article.Article> Articles { get; set; }
 
+        protected ArticleCategory()
+        {
+
+        }
 
         public ArticleCategory(string title, IArticleCategoryValidationRepository validation)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MB.ConcreateApplication.Article.Query;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace MB.Domain.Article.Repository
 {
    public interface IArticleRepository
     {
+        List<ArticleListQuery> GetList();
     }
 }

@@ -7,20 +7,16 @@ using MB.Infrastructure.Repositories.ArticleCategory;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MB.Infrustructure.Core.IOC
+namespace MB.Infrustructure.Core.IOC.ArticleCategory
 {
     public class ArticleCategoryIOC
     {
-      public  static void ConfigIOC(ServiceCollection services, string ConnectionString)
+      public  static void ConfigIOC(ServiceCollection services)
         {
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             services.AddTransient<IArticleCategoryValidationRepository, ArticleCategoryValidationRepository>();
-            services.AddDbContext<MasterBloggerDbContext>(options =>
-            {
-                options.UseSqlServer(ConnectionString);
-            });
-
+          
         }
     }
 }

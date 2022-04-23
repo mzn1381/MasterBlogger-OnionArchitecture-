@@ -1520,9 +1520,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MB.ConcreateApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.ConcreateApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.ConcreateApplication.dll": {}
+        }
+      },
       "MB.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.ConcreateApplication": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -5797,6 +5810,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "MB.ConcreateApplication/1.0.0": {
+      "type": "project",
+      "path": "../MB.ConcreateApplication/MB.ConcreateApplication.csproj",
+      "msbuildProject": "../MB.ConcreateApplication/MB.ConcreateApplication.csproj"
     },
     "MB.Domain/1.0.0": {
       "type": "project",
