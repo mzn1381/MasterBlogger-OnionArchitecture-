@@ -1,4 +1,5 @@
-﻿using MB.Domain.ArticleCategory;
+﻿using MB.Domain.Article;
+using MB.Domain.ArticleCategory;
 using MB.Infrastructure.Mapping.ArticleCategory;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,13 +12,15 @@ namespace MB.Infrastructure.Context
 {
     public class MasterBloggerDbContext : DbContext
     {
-        public DbSet<ArticleCategory>  ArticleCategories { get; set; }
+        public DbSet<ArticleCategory> ArticleCategories { get; set; }
+        public DbSet<Article> Articles { get; set; }
         public MasterBloggerDbContext(DbContextOptions<MasterBloggerDbContext> options) : base(options)
         {
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new ArticleCategoryMapping());
             modelBuilder.ApplyConfiguration(new ArticleCategoryMapping());
             base.OnModelCreating(modelBuilder);
         }

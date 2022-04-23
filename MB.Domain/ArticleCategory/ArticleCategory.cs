@@ -1,5 +1,6 @@
 ﻿using MB.Domain.ArticleCategory.Exceptions;
 using MB.Domain.ArticleCategory.Repository;
+using MB.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,16 +9,13 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.ArticleCategory
 {
-    public class ArticleCategory
+    public class ArticleCategory:BaseDomain
     {
         
-        public long Id { get; private set; }
         
         public string Title { get; private set; }
-        
-        public bool IsDeleted { get; private set; }
+        public ICollection<MB.Domain.Article.Article> Articles { get; set; }
 
-        public DateTime CreationDate { get; private set; }
 
         public ArticleCategory(string title, IArticleCategoryValidationRepository validation)
         {

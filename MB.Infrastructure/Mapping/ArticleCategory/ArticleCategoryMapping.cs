@@ -18,6 +18,9 @@ namespace MB.Infrastructure.Mapping.ArticleCategory
             builder.Property(x => x.Title);
             builder.Property(x => x.IsDeleted);
             builder.Property(x => x.CreationDate);
+
+            builder.HasMany(c => c.Articles).WithOne(c => c.ArticleCategory).HasForeignKey(c => c.ArticleCategoryId);
+
         }
     }
 }
