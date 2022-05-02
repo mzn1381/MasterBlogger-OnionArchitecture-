@@ -19,6 +19,12 @@ namespace MB.Infrastructure.Repositories.Article
             _db = db;
         }
 
+        public void Create(Domain.Article.Article article)
+        {
+            _db.Add(article);
+            _db.SaveChanges();
+        }
+
         public List<ArticleListQuery> GetList()
         {
             return _db.Articles.Select(c => new ArticleListQuery()

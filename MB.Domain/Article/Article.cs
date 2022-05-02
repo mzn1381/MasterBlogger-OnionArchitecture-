@@ -30,5 +30,11 @@ namespace MB.Domain.Article
             CreationDate = DateTime.Now;
             IsDeleted = false;
         }
+
+        public void Edit(string Title, string ShortDescription, string Content, string Image, long ArticleCategoryId)
+        {
+            this.Title 
+                               
+            }
     }
 }

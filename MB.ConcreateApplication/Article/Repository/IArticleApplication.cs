@@ -1,4 +1,5 @@
-﻿using MB.ConcreateApplication.Article.Query;
+﻿using MB.ConcreateApplication.Article.Command;
+using MB.ConcreateApplication.Article.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,6 @@ namespace MB.ConcreateApplication.Article.Repository
     public interface IArticleApplication : IArticleApplicationBase
     {
         List<ArticleListQuery> GetList();
+        void Create(ArticleCreateCommand command);
     }
 }

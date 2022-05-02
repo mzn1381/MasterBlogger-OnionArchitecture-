@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MB.ConcreateApplication.ArticleCategory.Query;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,6 @@ namespace MB.Domain.ArticleCategory.Repository
         void Active(long Id);
         void Remove(long Id);
         void Save();
+        List<ArticleCategorySelectListQuery> ArticleCategorySelectLists();
     }
 }

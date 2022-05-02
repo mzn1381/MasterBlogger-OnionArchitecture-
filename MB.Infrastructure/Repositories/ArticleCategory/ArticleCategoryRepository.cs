@@ -1,4 +1,5 @@
 ﻿
+using MB.ConcreateApplication.ArticleCategory.Query;
 using MB.Domain.ArticleCategory.Repository;
 using MB.Infrastructure.Context;
 using System.Collections.Generic;
@@ -57,6 +58,15 @@ namespace MB.Infrastructure.Repositories.ArticleCategory
             var article = GetBy(Id);
             article.Remove();
             Save();
+        }
+
+        public List<ArticleCategorySelectListQuery> ArticleCategorySelectLists()
+        {
+            return _dbContext.ArticleCategories.Select(x => new ArticleCategorySelectListQuery()
+            {
+                Id=x.Id,
+                Name=x.Title
+            }).ToList();
         }
     }
 }

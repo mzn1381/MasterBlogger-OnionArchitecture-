@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.Article.Repository
 {
-   public interface IArticleRepository
+    public interface IArticleRepository
     {
         List<ArticleListQuery> GetList();
+        void Create(Article article);
     }
 }

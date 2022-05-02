@@ -1,4 +1,5 @@
-﻿using MB.ConcreateApplication.Article.Query;
+﻿using MB.ConcreateApplication.Article.Command;
+using MB.ConcreateApplication.Article.Query;
 using MB.ConcreateApplication.Article.Repository;
 using MB.Domain.Article.Repository;
 using System;
@@ -18,9 +19,19 @@ namespace MB.Application.Article
             _articleRepository = articleRepository;
         }
 
+        public void Create(ArticleCreateCommand command)
+        {
+            var article = new Domain.Article.Article
+                (command.Title, command.ShortDescription, command.Image, command.Content
+                , command.ArticleCategoryId);
+            _articleRepository.Create(article);
+        }
+
         public List<ArticleListQuery> GetList()
         {
             return _articleRepository.GetList();
         }
+
+        
     }
 }

@@ -1,5 +1,6 @@
 ﻿using MB.ConcreateApplication.ArticleCategory.Command;
 using MB.ConcreateApplication.ArticleCategory.Dto;
+using MB.ConcreateApplication.ArticleCategory.Query;
 using MB.ConcreateApplication.ArticleCategory.Repository;
 using MB.Domain.ArticleCategory;
 using MB.Domain.ArticleCategory.Repository;
@@ -32,6 +33,11 @@ namespace MB.Application.ArticleCategory
         {
             var articleCategory = new Domain.ArticleCategory.ArticleCategory(command.Title, _validation);
             _articleCategoryRepository.Create(articleCategory);
+        }
+
+        public List<ArticleCategorySelectListQuery> ArticleCategorySelectListQueries()
+        {
+            return _articleCategoryRepository.ArticleCategorySelectLists();
         }
 
         public void Edit(ArticleCategoryEditCommand command)
